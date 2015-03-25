@@ -131,7 +131,7 @@ def main():
         run(arm)
         debug()
         if largest() == arm:
-            for z in range(int(math.pow(2, (count / 80)))):
+            for z in range(int(math.pow(2, (count / 200)))):
                 run(arm)
         count += 1
         arm = count % 5 + 1
